@@ -1,7 +1,7 @@
 package projects;
 
 public class polymorphism {
-	void add(int x, int y)
+      void add(int x, int y)
 	{
 		System.out.println("Addition two numbwr " + (x+y));
 	}

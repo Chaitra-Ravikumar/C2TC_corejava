@@ -1,11 +1,19 @@
 package abc;
 
 public class addition {
-	
-
-	public int addtwonumbers(int x, int y) {
+	private int addtwonumbers(int a, int b) {
+		return a+b;
+	}
+	class b
+	{
+		
+	}
+	public static void main(String args[]) {
 		// TODO Auto-generated method stub
-         return(x+y);
+		
+         addition obj = new addition();
+         System.out.println(obj.addtwonumbers(2, 2));
+         
 	}
 
 }
