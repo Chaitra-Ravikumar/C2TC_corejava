@@ -9,23 +9,27 @@ public class Lib {
 	
 	Scanner s = new Scanner(System.in);
 	
-	void input()
+     void input()
 	{
+    	System.out.println("Enter the tttle");
+ 		String title = s.nextLine();
+ 		System.out.print("");
+ 		
+ 		
+		System.out.println("Enter the Author name");
+		String author = s.nextLine();
 		
 		System.out.println("Enter the account number");
-		int g = s.nextInt();
+		int accno = s.nextInt();
 		
-		System.out.println("Enter the tttle");
-		String h = s.nextLine();
-		System.out.println(" ");
 		
-		System.out.println("Enter the Author name");
-		String i = s.nextLine();
+		
 		
 	}
 	
 	void compute()
 	{
+		
 		System.out.println("Accept the number of days");
 		int no_days= s.nextInt();
 		int fine=(no_days*5);
@@ -34,9 +38,8 @@ public class Lib {
 	
 	void display()
 	{
-		System.out.println("The accession number is " + accno);
-		System.out.println("The title " + title);
-		System.out.println("The author is " + author);
+		System.out.print(" Accession number \t "+ accno +"  Title    Author  ");
+		//System.out.println("\t" + accno + "\t" + title + "\t" + author );
 	}
 	
 
