@@ -3,33 +3,28 @@ package projects;
 import java.util.*;
 
 public class Lib {
-    int accno;
-	String title;
-	String author;
-	
-	Scanner s = new Scanner(System.in);
+    int Accno;
+	String Title;
+	String Author;
 	
      void input()
 	{
+    	Scanner s = new Scanner(System.in);
     	System.out.println("Enter the tttle");
- 		String title = s.nextLine();
+ 		Title = s.nextLine();
  		System.out.print("");
  		
  		
 		System.out.println("Enter the Author name");
-		String author = s.nextLine();
+		 Author = s.nextLine();
 		
 		System.out.println("Enter the account number");
-		int accno = s.nextInt();
-		
-		
-		
-		
+	     Accno = s.nextInt();
 	}
 	
 	void compute()
 	{
-		
+		Scanner s = new Scanner(System.in);
 		System.out.println("Accept the number of days");
 		int no_days= s.nextInt();
 		int fine=(no_days*5);
@@ -38,8 +33,8 @@ public class Lib {
 	
 	void display()
 	{
-		System.out.print(" Accession number \t "+ accno +"  Title    Author  ");
-		//System.out.println("\t" + accno + "\t" + title + "\t" + author );
+		System.out.println(" Accession number \tTitle\tAuthor \t ");
+		System.out.print( Accno         + "\t"    +   Title     +"\t"+       Author);
 	}
 	
 
