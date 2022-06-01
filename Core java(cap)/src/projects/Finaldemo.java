@@ -1,6 +1,14 @@
 package projects;
 
-public class Finaldemo {
+final class a{
+	final void run()
+	{
+		
+	}
+
+}
+
+public class Finaldemo extends a{// we can call the final class as a subclass
 	final int speedlimit=90;//final variable
 	//int speedlimit=90;
 	void run()
@@ -11,6 +19,8 @@ public class Finaldemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Finaldemo ob = new Finaldemo();
+		a ob1 = new a();
+		ob1.a();
 		ob.run();
 
 	}
